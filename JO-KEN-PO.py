@@ -8,7 +8,7 @@ while True:
             {'PAPEL   [2]':<10}
             {'TESOURA [3]':<10}\nDIGITE SUA OPÇÃO->"""))
             break
-        except:
+        except ValueError:
             print("ERRO! -> Verifique se você realmente digitiu um número <-")
     while True:
         if usuario > 3 or usuario < 0:
