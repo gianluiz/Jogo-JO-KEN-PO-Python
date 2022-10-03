@@ -1,4 +1,4 @@
-# Jogo JO-KEN-PO
+# Jogo JO-KEN-PO em linguagem Python
  JO-KEN-PO completo com tratamento de erros
 
 Enquanto trabalhava em outros projetos mais complexos, me deparei com esse antigo exercício que pedia para que se 
