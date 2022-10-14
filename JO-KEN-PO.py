@@ -1,4 +1,4 @@
-print("Crie um programa que faça o computador jogar Jokenpô com você.")
+#este é um programa que faz o computador jogar Jokenpô com você
 print(f'''{"JOGO de J0-KEN-PO":-^45}''')
 while True:
     while True:
