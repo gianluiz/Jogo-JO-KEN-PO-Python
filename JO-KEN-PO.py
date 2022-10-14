@@ -1,4 +1,4 @@
-#este é um programa que faz o computador jogar Jokenpô com você
+# este é um programa que faz o computador jogar Jokenpô com você
 print(f'''{"JOGO de J0-KEN-PO":-^45}''')
 while True:
     while True:
@@ -21,9 +21,11 @@ while True:
             break
     elementos = ["PEDRA!", "PAPEL!", "TESOURA!"]
     from random import choice
+
     maquina = choice(elementos)
     print("\nO usuário escolheu...")
     from time import sleep
+
     if usuario == 1:
         print("\nPEDRA!")
     if usuario == 2:
@@ -38,7 +40,7 @@ while True:
     sleep(1)
     print(f"{'PO!':=^15}")
     sleep(1)
-    print("\n",maquina,"\n")
+    print("\n", maquina, "\n")
     sleep(0.5)
     if usuario == 1 and maquina == elementos[1]:
         print("Máquina venceu!")
@@ -46,7 +48,8 @@ while True:
         print("Máquina venceu!")
     elif usuario == 3 and maquina == elementos[0]:
         print("Máquina venceu!")
-    elif usuario == 1 and maquina == elementos[0] or usuario == 2 and maquina == elementos[1] or usuario == 3 and maquina == elementos[2]:
+    elif usuario == 1 and maquina == elementos[0] or usuario == 2 and maquina == elementos[
+        1] or usuario == 3 and maquina == elementos[2]:
         print("Deu empate!")
     else:
         print("Usuário Venceu!")
